@@ -29,7 +29,7 @@ To clone and run the project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/mediator-pattern-angular.git
+git clone https://github.com/anthonylhowardjr/mediator-pattern-angular.git
 ```
 
 2. Install dependencies:
