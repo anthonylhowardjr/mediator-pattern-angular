@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss"
+  ],
+  "rules": {
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "after-comment",
+          "blockless-after-same-name-blockless",
+          "inside-block"
+        ]
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "content",
+          "else",
+          "for",
+          "function",
+          "if",
+          "include",
+          "mixin",
+          "return",
+          "warn"
+        ]
+      }
+    ],
+    "block-closing-brace-newline-after": [
+      "always",
+      {
+        "ignoreAtRules": ["if", "else"]
+      }
+    ],
+    "color-function-notation": null,
+    "declaration-colon-newline-after": null,
+    "function-disallowed-list": ["random"],
+    "indentation": null,
+    "max-nesting-depth": [
+      5,
+      {
+        "ignore": ["blockless-at-rules"]
+      }
+    ],
+    "no-descending-specificity": null,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "string-quotes": null,
+    "value-keyword-case": [
+      "lower",
+      {
+        "camelCaseSvgKeywords": true
+      }
+    ],
+    "selector-not-notation": null,
+    "value-list-comma-newline-after": null,
+    "scss/no-global-function-names": null,
+    "scss/at-import-partial-extension": null,
+    "scss/comment-no-empty": null,
+    "scss/dollar-variable-pattern": null,
+    "scss/at-mixin-pattern": null
+  }
+}

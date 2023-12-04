@@ -1,0 +1,28 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "style": "scss"
+    }
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "cSpell.fixSpellingWithRenameProvider": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stylelint.validate": ["scss"],
+}

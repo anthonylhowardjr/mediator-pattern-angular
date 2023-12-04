@@ -1,0 +1,7 @@
+{
+  "extends": ["html-validate:recommended", "html-validate:prettier"],
+  "rules": {
+    "attr-quotes": ["error", { "style": "double" }],
+    "no-self-closing": "off"
+  }
+}
